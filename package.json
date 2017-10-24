@@ -1,0 +1,21 @@
+{
+  "name": "esm-jest-import-issue",
+  "version": "1.0.0",
+  "description": "Small repo to reproduce the issue with imports, @std/esm and jest",
+  "scripts": {
+    "start": "npm test",
+    "test": "./node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "esm",
+    "jest",
+    "import"
+  ],
+  "author": "Marcel Koch",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "0.11.3",
+    "jest": "21.2.1",
+    "request": "2.83.0"
+  }
+}
